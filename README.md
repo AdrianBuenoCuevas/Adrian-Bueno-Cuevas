@@ -57,5 +57,3 @@
 
     <h2>Autor</h2>
     <p><strong>Adrián Bueno Cuevas</strong></p>
-</body>
-</html>
