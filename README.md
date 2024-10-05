@@ -1,4 +1,12 @@
-<h1>Proyecto: Ejemplos - FUNDAMENTOS DE JS (ES6)</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - Proyecto JavaScript ES6</title>
+</head>
+<body>
+    <h1>Proyecto: Ejemplos - FUNDAMENTOS DE JS (ES6)</h1>
 
     <p>Este proyecto es una plantilla simple para mostrar ejemplos de fundamentos de JavaScript (ES6) en un entorno web. Incluye una estructura HTML básica con un formulario de inicio de sesión, un sistema de tarjetas (cards) para mostrar ejercicios y un menú de navegación hacia recursos externos.</p>
 
@@ -57,3 +65,5 @@
 
     <h2>Autor</h2>
     <p><strong>Adrián Bueno Cuevas</strong></p>
+</body>
+</html>

@@ -1,0 +1,128 @@
+/* Body */
+body {
+  background: url(../img/bgblanco.png) repeat;
+  text-align: justify;
+  font-size: 14px;
+}
+
+/* Header */
+.header {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  background: url(../img/bgblue2.png) repeat;
+  opacity: 0.5;
+  text-align: center;
+  padding: 5px;
+  color: rgba(255, 250, 250, 0.9);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.img {
+  width: 50%;
+  height: 70%;
+}
+
+/* Navbar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(210, 105, 30, 0.5);
+  opacity: 0.85;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgba(255, 250, 250, 0.9);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgba(128, 128, 128, 0.25);
+  color: rgba(255, 215, 0, 0.75);
+}
+
+/* Cards */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  padding: 20px;
+  margin: auto;
+  align-items: center;
+}
+
+.cardTitle {
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+}
+
+.cardBody {
+  padding: 10px;
+  flex: 1 1 100%;
+}
+
+.cardFooter {
+  background: rgba(50, 205, 50, 0.25);
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.cardFooter a {
+  text-decoration: none;
+  color: rgba(0, 0, 255, 0.8);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Login Form */
+#loginCard {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+#loginForm {
+  width: 100%;
+}
+
+#loginForm label,
+#loginForm input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#loginButton {
+  background-color: green;
+}
+
+#cancelButton {
+  background-color: red;
+}
+
+/* Footer */
+.footer {
+  background: url(../img/bgblue2.png) repeat;
+  opacity: 0.5;
+  text-align: center;
+  padding: 20px;
+  color: rgba(255, 250, 250, 0.9);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
