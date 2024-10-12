@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Content</title>
+    <link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <script defer src="./js/login.js"></script>
+    <script defer src="./js/calculadora.js"></script>
+    <script defer src="./js/conversor.js"></script>
+  </head>
+  <body>
+    
+    <!-- --------HEADER---------- -->
+    <header class="header">
+      <div></div>
+      <div>
+        <h3>Ejemplos - FUNDAMENTOS DE JS (ES6)</h3>
+        <h4>Desarrollo WEB en entorno cliente</h4>
+        <h5>Plantilla03a</h5>
+      </div>
+      <div>
+        <img class="img" src="./img/foto.jpg" alt="foto" />
+      </div>
+    </header>
+
+    <!-- ---------MENU----------- -->
+    <nav class="topnav">
+      <a href="https://www.w3schools.com/js/default.asp">w3schools</a>
+      <a href="https://es.javascript.info/js">javascript.info</a>
+      <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a>
+      <a href="https://github.com/AdrianBuenoCuevas/Adrian-Bueno-Cuevas">GitHub</a>
+      <div class="dropdown">
+        <a>Number</a>
+        <div class="dropdown-content">
+            <a href="#" onclick="mostrarCalculadora()">MiniCalculadora</a>
+            <a href="#" onclick="mostrarConversor()">Conversor de Bases</a>
+        </div>
+    </div>
+      <a id="logoutButton">Cerrar Sesión</a>
+    </nav>
+
+    <br />
+
+    <!-- ------MAIN-CONTENT------ -->
+    <main id="mainContent">
+        <div class="container">
+        Selecciona un ejercicio para mostrarlo aquí
+        </div>
+
+        <br/>
+
+        <!-- Mini Calculadora -->
+        <section id="calculadora">
+            <h2>Mini Calculadora</h2>
+            <input type="number" id="num1" placeholder="Número 1" />
+            <input type="number" id="num2" placeholder="Número 2" />
+            <button onclick="calcular('+')">Sumar</button>
+            <button onclick="calcular('-')">Restar</button>
+            <button onclick="calcular('*')">Multiplicar</button>
+            <button onclick="calcular('/')">Dividir</button>
+            <h3>Resultado: <span id="resultado"></span></h3>
+        </section>
+
+        <br/>
+
+        <!-- Conversor de Bases -->
+        <section id="conversor">
+            <h2>Conversor de Bases</h2>
+            <input type="text" id="numero" placeholder="Número a convertir" />
+            <select id="base">
+                <option value="2">Binario</option>
+                <option value="8">Octal</option>
+                <option value="10">Decimal</option>
+                <option value="16">Hexadecimal</option>
+            </select>
+            <button onclick="convertir()">Convertir</button>
+            <h3>Resultado: <span id="resultado-conversor"></span></h3>
+        </section>
+
+    </main>
+
+    <!-- ---------FOOTER----------- -->
+    <footer class="footer">
+      © Adrián Bueno Cuevas ☺
+    </footer>
+  </body>
+</html>
