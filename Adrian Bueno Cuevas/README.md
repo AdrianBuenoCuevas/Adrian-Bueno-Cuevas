@@ -56,12 +56,15 @@
         <li>Se aplican efectos de sombra en el texto y en varios elementos de la página.</li>
     </ul>
 
-    <h2>Cómo Usar el Proyecto</h2>
-    <ol>
-        <li>Clona o descarga el repositorio.</li>
-        <li>Abre el archivo <code>index.html</code> en tu navegador para visualizar la página.</li>
-        <li>Puedes modificar los estilos en <code>css/styles.css</code> y el comportamiento en <code>js/login.js</code> para personalizarlo según tus necesidades.</li>
-    </ol>
+     <h3>5. Cookies</h3>
+    <ul>
+        <li>Añadida la gestión de cookies.</li>
+    </ul>
+
+    <h3>6. Number</h3>
+    <ul>
+        <li>Añadido Number aunque no funciona en el main.html.</li>
+    </ul>
 
     <h2>Autor</h2>
     <p><strong>Adrián Bueno Cuevas</strong></p>
